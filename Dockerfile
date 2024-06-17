@@ -13,7 +13,6 @@ COPY dlc.dat /home/x-ui/bin/
 WORKDIR "/home/"
 RUN tar xvzf x-ui-linux-amd64-hossinasaadi-0.5.4.tar.gz
 RUN rm x-ui-linux-amd64-hossinasaadi-0.5.4.tar.gz
-COPY x-ui /home/x-ui/
 RUN chmod +x /home/start.sh
 RUN chmod +x /home/x-ui/x-ui
 CMD bash -C 'start.sh';'bash'

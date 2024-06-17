@@ -1,6 +1,0 @@
-after copying config3vless1:
-change port to 443
-active tls
-in tls:
-allowInsecure: false
-SNI: domain name fore example app3-noizji4r.b4a.run
